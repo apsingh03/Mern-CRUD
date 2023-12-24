@@ -1,0 +1,18 @@
+
+create server folder 
+create app.js file 
+
+npm init -y 
+
+npm i express dotenv cors mysql2
+
+// ----- To run backend via nodemon  nodemon app.js
+npm install -g nodemon
+
+
+
+// ------- To connect backend from frontend in react package.json file add below line
+  "proxy": "http://localhost:8001", 
+
+
+  
